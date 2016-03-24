@@ -25,19 +25,20 @@
 		<header id="masthead" class="site-header" role="banner">
 			<div class="top-header">
 				<div class="store-wrapper clear">
-					<?php
-					if ( is_active_sidebar( 'eightstore-lite-language-option' ) ) {
-						?>
-						<div class="translate-dropdwn">
-							<?php
-							dynamic_sidebar( 'eightstore-lite-language-option' );
-							?>
-						</div>
-						<?php
-					}
-					?>
 					<div class="store-menu">
+				
 						<nav id="site-navigation" class="main-navigation" role="navigation">
+<?php
+							if ( is_active_sidebar( 'eightstore-lite-language-option' ) ) {
+?>
+								<div class="translate-dropdwn">
+<?php
+								dynamic_sidebar( 'eightstore-lite-language-option' );
+?>
+								</div>
+<?php
+							}
+?>
 							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( '', 'eightstore-lite' ); ?></button>
 							<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 						</nav><!-- #site-navigation -->
