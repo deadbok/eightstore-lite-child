@@ -1,0 +1,165 @@
+/*
+Theme Name: EightStore Lite Child
+Template: eightstore-lite
+Author: Martin Bo Kristensen Grønholdt
+Author URI: https://groenholdt.net
+Text Domain: eightstore-lite-child
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 0.0.14
+Updated: 2016-03-20 17:51:24
+*/
+
+@charset "UTF-8";
+
+.top-header
+{
+	background-color: #000000;
+	text-align: right;
+}
+
+.store-menu
+{
+	background: #000000 none repeat scroll 0 0;
+}
+
+.nav-menu li a:hover, .main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a
+{
+	font-weight: bold;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+#primary h1.entry-title, #secondary h1.widget-title, .page-title {
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 25px;
+	padding: 5px 15px;
+	margin: 0 0 20px 0;
+	font-weight: normal;
+	position: relative;
+}
+
+#primary h1.entry-title
+{
+	height: 0;
+	visibility: hidden;
+	padding: 0;
+	font-size: 0;
+	margin: 0;
+
+}
+
+#primary h1.entry-title, #secondary h1.widget-title, .page-title
+{
+	height: 0;
+	visibility: hidden;
+	padding: 0;
+	font-size: 0;
+	margin: 0;
+
+}
+
+
+#primary .entry-header h1.entry-title a
+{
+	height: 0;
+	background: none;
+	color: #ffffff;
+}
+
+#primary .entry-header h1.entry-title a:hover
+{
+	color: #ffffff;
+	font-weight: bold;
+	display: inline-block;
+	width: 100%;
+}
+
+.main-navigation li a
+{
+	display: block;
+	text-decoration: none;
+	padding: 15px 10px;
+	color: #ffffff;
+}
+
+.main-navigation li a:hover
+{
+	display: block;
+	text-decoration: none;
+	padding: 15px 10px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.home-links
+{
+	list-style: outside none none;
+	margin: 0;
+    padding: 0;
+}
+
+.home-link
+{
+	display: inline;
+	padding: 5px;
+	width: 27%;
+}
+
+h3.home-link
+{
+	padding: 5px;
+	width: 27%;
+}
+
+li.columns-3
+{
+	display: inline;
+	margin: 0 80px 80px 0;
+	width: 27%;
+}
+
+/*---------------------------------------------------
+WOOCOMMERCE STYLE
+---------------------------------------------------*/
+.woocommerce #primary{
+	float: none;
+	width: 70%;
+	margin-left: 40px;
+}
+.woocommerce .woocommerce-breadcrumb
+{
+	height: 0;
+	visibility: hidden;
+	padding: 0;
+	font-size: 0;
+	margin: 0;
+
+}
+
+.woocommerce .woocommerce-breadcrumb a
+{
+	height: 0;
+	visibility: hidden;
+	padding: 0;
+	font-size: 0;
+	margin: 0;
+}
+
+
+/*
+ * Products carousel.
+ */
+
+/*.light-theme.woocommerce-products-carousel-all-in-one
+{
+	width: 220px;
+}
+
+.compact-theme.woocommerce-products-carousel-all-in-one
+{
+	width: 25%;
+}*/
