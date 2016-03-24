@@ -100,8 +100,3 @@ function eightstore_lite_setup() {
 endif; // eightstore_lite_setup
 add_action( 'after_setup_theme', 'eightstore_lite_setup' );
 
-/**
- * Customizer additions.
- */
-require get_stylesheet_directory() . '/inc/customizer.php';
-
